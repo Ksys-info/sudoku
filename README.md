@@ -16,3 +16,7 @@ The Scala version was tested using the two Advanced Puzzle Packs at:
     http://angusj.com/sudoku/
 
 and it passed all 131 tests, so I assume the program is correct.
+
+One algorithmic enhancement was made, which was to randomize the order of evaluation. This reduces the number or iterations to about 30% to 40% of the randomized program. This idea came from:
+
+    http://moriel.smarterthanthat.com/tips/javascript-sudoku-backtracking-algorithm/
